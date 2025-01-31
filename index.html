@@ -479,20 +479,21 @@ Una empresa de <a target="_blank" href="https://altomarketing.com/">Altomarketin
 
 <script src="assets/js/main.js"></script>
 <script>
-    (function(d,t) {
-      var BASE_URL="https://chat.chatconclientes.info";
-      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=BASE_URL+"/packs/js/sdk.js";
-      g.defer = true;
-      g.async = true;
-      s.parentNode.insertBefore(g,s);
-      g.onload=function(){
-        window.chatwootSDK.run({
-          websiteToken: 'gmgDhyhipy3GjR4kHwvN9o9v',
-          baseUrl: BASE_URL
-        })
-      }
-    })(document,"script");
-  </script>
+  (function(d,t) {
+    var BASE_URL="https://chat.altomarketing.net";
+    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=BASE_URL+"/packs/js/sdk.js";
+    g.defer = true;
+    g.async = true;
+    s.parentNode.insertBefore(g,s);
+    g.onload=function(){
+      window.chatwootSDK.run({
+        websiteToken: 'CAtujjA6SxF7bpzoQqQN2BEo',
+        baseUrl: BASE_URL
+      })
+    }
+  })(document,"script");
+</script>
+
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;c353d9ae79e34db3aff46b7d37535469&quot;}"></script></body>
 </html>
